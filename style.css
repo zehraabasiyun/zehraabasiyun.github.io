@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.sayfalar{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: #fff;
+    background-color: black;
+}
+
+.sayfa1 img{
+    width: 900px;
+}
+
+.blur{
+    position: absolute;
+    width: 700px;
+    height: 470px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff10;
+    backdrop-filter: blur(3px);
+}
+
+.bilgiler h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    position: absolute;
+    top: 32%;
+    left: 32%;
+    line-height: 1.2;   
+}
+
+.bilgiler h3{
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    top: 52%;
+    left: 32%;
+    line-height: 0.02;
+}
+
+.bilgiler img{
+    position: absolute; 
+    width: 40px; 
+    height: 40px; 
+    left: 32%; 
+    top: 55%;
+}
+
+.aciklama{
+    position: absolute;
+    top: 25%;
+    right: 30%;
+    width: 250px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+}
+
+.aciklama a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.sayfa1 hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sayfa2 h1{
+  
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.69);
+    letter-spacing: 55px;
+    font-size: 55px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.449);
+}
+
+.sayfa2 img{
+    width: 100%;
+    height: 100vh;
+}
+
+.div1{
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    top: 110%;
+    left: 18%;
+    background-color: rgba(170, 20, 20, 0);
+    text-align: center;
+}
+
+.div2{
+    background-color: rgba(223, 236, 226, 1);
+    border-radius: 20px;
+    color: rgba(0, 0, 0, 0.842);
+    position: absolute;
+    top: 20%;
+    left: 22%;
+    text-align: center;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.358);
+}
+
+.sayfa2 p{
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.sayfa3 img{
+    width: 1220px;
+    filter: blur(2.5px);
+}
+.sayfa3 h1{
+    color: #ffffff99;
+    font-weight: 500px;
+    letter-spacing: 7px;
+    position: absolute;
+    top: 230%;
+    left: 10%;
+    text-align: center;
+}
+
+.sayfa3 p{
+    position: absolute;
+    top: 250%;
+    left: 12%;
+    text-align: center;
+    color: #ffffffa0;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.sayfa4 img{
+    width: 1220px;
+    filter: brightness(0.8) contrast(1.2);
+}
+
+.sayfa4 h1{
+    color: rgba(197, 168, 20, 1);
+    letter-spacing: 10px;
+    position: absolute;
+    top: 330%;
+    left: 15%;
+    font-size: 45px;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+
+
+.sayfa4 p{
+    font-weight: lighter;
+    position: absolute;
+    top: 340%;
+    left: 17%;
+    font-size: 15px;
+    color: #ffffffb9;
+    text-align: center;
+}
+
+.sayfa5 div{
+    position: absolute;
+    top: 490%;
+    left: 36%;
+}
+
+.orman{
+    width: 100%;
+    height: 100vh;
+}
+
+.iconlar{
+    height: 48px;
+    font-weight: 48px;
+    padding-left: 20px;
+}
+
+.sayfa5 a{
+    text-decoration: none;
+}
